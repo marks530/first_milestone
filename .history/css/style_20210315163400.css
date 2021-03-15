@@ -20,7 +20,7 @@ h2 {
 #menu {
     font-size: 140%;
     list-style-type: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-right: 120px;
 }
 
@@ -86,10 +86,6 @@ h4 {
     font-family: "Exo", sans serif;
     font-weight: 300;
     color: #fafafa;
-}
-
-.shift {
-    margin-top: 20px;
 }
 
 

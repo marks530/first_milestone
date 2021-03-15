@@ -14,14 +14,13 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 120px;
+    margin-left: 40px;
 }
 
 #menu {
     font-size: 140%;
     list-style-type: none;
-    letter-spacing: 1px;
-    margin-right: 120px;
+    letter-spacing: 2px;
 }
 
 #menu {
@@ -88,12 +87,8 @@ h4 {
     color: #fafafa;
 }
 
-.shift {
-    margin-top: 20px;
-}
 
-
-/*----------------------------------Footer */
+/*---------------Footer */
 
 footer {
     background-color: #525252;
@@ -128,6 +123,10 @@ footer {
 
 .social-links li a i:hover {
     background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 #footer-details {
