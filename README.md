@@ -2,11 +2,28 @@
 
 # Project Title:  *[Print Better  ](https://github.com/marks530/first_milestone)* - a webpage for better printing:
 
-## Design brief:
+## Project Goals:
 
->The goal of this project is to print better
+>The goal of this project is to highlight the possibilities of improving the quality of the output from a given printer and introduce the prospect of selling a solution
 
-## UX
+## User Goals
+The user of the site is somebody who is trying to get the best possible print quality from their printer. They may be an small business or home office or indeed a user who would like to print some family photos.
+
+## User Stories
+A good example is a solicitors office who would use a local print shop to print their letterheads and have one or more printers. The colour and detail of the letterhead is important and must be accurate and consistent. We are offering a solution for this issue.
+With the current lockdown situation many more people are printing at home on low-cost printers that are sold to drive ink sales. They are generally set to use more ink than is necessary and by using our solution they could save money on ink and get better colour prints
+
+##Site Owner Goals
+The goal of the site owner is to attract consumers with prospect of high quality prints and to collect and store user details with a view to introduce other products and services in the future
+
+##User Requirements and Expectations
+Site users will be in a home, home office or commercial office situation using a printer with quality expectations. They will have experienced poor quality prints and understand the limitations of their current setup. Some will have heard of ICC profiles and want to learn more 
+
+## Design Choices
+Because we concerned largely with colour I have used a lot of colour images to intensify the user experience
+
+## Colours
+I have used a range of images to deliver a colourful landing of the website 
 
 ## Wireframes 
 
