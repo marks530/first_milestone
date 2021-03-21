@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400' rel='stylesheet' type='text/css'>
-
-    <title>Our Service</title>
-
+    <title>Print Better</title>
 </head>
 
 <body>
@@ -42,72 +40,60 @@
         </div>
     </nav>
 
-    <div>
-        <ul class="container" id="space">
+    <section>
+        <div class="jumbotron text-center">
+            <h1 class="uppercase">Welcome to Print Better!<br>Transform the output from your Printer</h1>
+            <p class="uppercase">Print better quality images using our ICC profiles <strong>and save ink!</strong><br>We can create an ICC profile for you remotely <br>or we can come to your location anywhere in the country
+            </p>
+            <p class="lead">Sign up today to get two profiles for the price of one!.
+                <span class="d-inline d-sm-none"><br></span>
+                <strong><mark>Second one is free!</mark></strong></p>
+            <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up to Print Better!</button></p>
+
+        </div>
+    </section>
+
+
+    <div class="container">
+        <ul id="space">
             <li>
-                <img src="images/Epson_SC-S40600-front-view-hero.png" alt="Epson_Large_Format_printer" class="center">
+                <img src="images/before-after-profile.jpg" alt="colour contrast image" class="center">
             </li>
         </ul>
     </div>
 
     <section>
         <div class="container">
-            <h3>List of Printer Manufacturers</h3>
             <div class="row">
-                <div class="col-sm-4">
-
-                    <img src="images/images_Oki_Logo.jpg" alt="Oki_Logo" class="
-                    old-new zoom">
-                    <p class="shift">As an Epson Authorized Partner we work with the all Epson Photo Large Format and Consumer Printers</p>
-
-                </div>
-                <div class="col-sm-4">
-
-                    <img src="images/Epson_Logo.png
-                    " alt="Epson_Logo" class="old-new zoom">
-                    <p class="shift">As an Epson Authorised Partner we work with the all Epson Photo Large Format and Consumer Printers </p>
+                <div class="col-sm-4" id="space">
+                    <h4>What is an ICC Profile?</h4>
+                    <img src="images/Loupe.png" alt="tool for inspecting images">
+                    <p class="shift">An ICC Profile controls the color management of your printer. A color profile is designed to get the best quality prints from your printer – it changes the preset colours of your printer ink.</p>
 
                 </div>
-                <div class="col-sm-4">
-                    <img src="images/AgfaLogo.png" alt="Agfa_Logo" class="old-new zoom">
-                    <p class="shift">As an Epson Authorised Partner we work with the all Epson Photo Large Format and Consumer Printers</p>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-sm-4">
-
-                    <img src="images/Xeikon_now_owned_by_Flint_Logo.png" alt="Xeikon_Logo" class="old-new zoom">
-                    <p class="shift">As an Epson Authorized Partner we work with the all Epson Photo Large Format and Consumer Printers</p>
+                <div class="col-sm-4" id="space">
+                    <h4>Colour Charts</h4>
+                    <img src="images/color-chart.jpg" alt="test chart used to calculate ICC profiles" class="old-new" class="space">
+                    <p class="shift">We use the latest colour management software called iPublish and the latest Spectrophotometer, the iPro 3, both from x-Rite </p>
 
                 </div>
-                <div class="col-sm-4">
-
-                    <img src="images/toyobo_logo.png" alt="Canon_Logo" class="old-new zoom">
-                    <p class="shift">As an Epson Authorized Partner we work with the all Epson Photo Large Format and Consumer Printers </p>
-
-                </div>
-                <div class="col-sm-4">
-                    <img src="images/canon_logo.png" alt="Canon_Logo" class="old-new zoom">
-                    <p class="shift">As an Epson Authorised Partner we work with the all Epson Photo Large Format and Consumer Printers</p>
+                <div class="col-sm-4" id="space">
+                    <h4>Colour Calibration</h4>
+                    <img src="images/xRite.jpg" alt="colour measuring device" class="old-new" class="space">
+                    <p class="shift">We create custom made icc color profiles for your printer – all you need to do is print the colour chart on printer using the instructions on our website – do this using the ink type and paper type you want an ICC profile</p>
                 </div>
             </div>
         </div>
-
     </section>
     <section>
         <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Sign up for better quality printing!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                     </div>
                     <div class="modal-body">
                         <form>
@@ -120,11 +106,12 @@
                                 <label for="exampleInputPassword1">Password</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div class="form-group">
+                                <label for="repeatpassword"> Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatpassword" placeholder="Repeat Password">
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                            <button type="submit" class="btn btn-success">Submit</button>
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -135,6 +122,8 @@
             </div>
         </div>
     </section>
+
+
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -195,6 +184,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
