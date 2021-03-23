@@ -25,13 +25,13 @@ They will also have heard of ICC profiles and want to find more. The site is gea
 
 
 ## Site Owner Goals
-The goal of the site owner is to attract consumers with prospect of high quality prints and to sell an off the shelf ICC profile or sell the service as a call-out and create a one-off profile on-site. collect and store user details with a view to introduce other products and services in the future.
+The goal of the site owner is to attract consumers with prospect of high quality prints and to sell an off the shelf ICC profile or sell the service as a call-out and create a one-off profile on-site. Also to collect and store user details with a view to introduce other products and services in the future.
 
 ## User Requirements and Expectations
 Site users will be in a home, home office or commercial office situation using a printer with quality expectations. They will have experienced poor quality prints and understand the limitations of their current setup. Some will have heard of ICC profiles and want to learn more. In the current situation I feel a lot more people who perhaps are getting the company to buy them a printer for use at home will want to start printing their own photos and documents and realise the potential 
 
 ## Design Choices
-Because we concerned largely with colour images and colour quality I have used a lot of images to intensify the user experience. I have decided to put a hero image on the landing page to show immediately the impact of our solution. The images of the specialized equipment that will further enhance this impression. The second service page further enhances the company reputation showing our relationships with the main printer manufacturers
+Because we are concerned largely with colour images and colour quality I have used a lot of images to intensify the user experience. I have decided to put a hero image on the landing page to show immediately the impact of our solution. The images of the specialized equipment that will further enhance this impression. The second service page further enhances the company reputation showing our relationships with the main printer manufacturers
 The About Us page gives a short history of the company and the depth of experience of the company employees. I have also included a video of how to install an ICC profile on a Mac 
 
 ## Colours
@@ -46,7 +46,7 @@ I have used a range of images to deliver a colourful landing page of the website
 As the user arrives on the landing page they will see a hero image and a message with an introductory offer. The hero image is an image designed to convey the difference in colour achieved in different printing scenarios. The offer is an invitation to sign up to receive an ICC profile bundle.
 
 This landing page is modelled on the Whiskey Drop site as I felt this was a well structured site
-### Our Service page
+### Service page
 This page is designed demonstrate the depth and breadth of the printers covered by the company. I created a page again with a hero image and several logos of our printer manufacturers partners. I have employed a gentle expand on hover effect to enhance the experience
 
 ### About Us Page
@@ -79,17 +79,11 @@ I created a page with a contact us form and modified to suit with a video elemen
 
 I have decided on a website with 4 separate pages all using the same navbar and footer
 The navbar is laid out to guide the user through the site.
-### Landing page
 The landing page is designed to catch the attention of user with a the hero image showing the contrast between poor quality and better quality printing hence the name!
 The user is also presented with information and explanation of ICC profiles and image of equipment and charts used in the process
-### Service Page
 The service page is presented with an striking image of a large format printer more familiar to business users. The logos section on this page is primarily commercial and industrial printer manufacturers and hopefully the user will recognize their brand
-
-### About Us Page
 The about us page describes the company history to convey the impression of longevity and experience in the trade.
 The video section demonstrates how easy it is to install an ICC profile
-
-### Contact Us Page
 The contact us page is about getting feedback on the service and creating a database of interested parties.
 The section of happy customers will give further reassurance and hopefully the user will recognize a familiar scenario
 ## Technologies Used
