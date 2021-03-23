@@ -114,6 +114,7 @@ The images on the contact us page are dropped at the smartphone size which suits
 Similarly for the footer element I observed its behaviour on the iPhone 6 and ipad devices as well as desktop views
 
 Completed testing of all the html code at the following address [W3 Validator](https://validator.w3.org/nu/#textarea and the css.style file using the css checkbox on the same page
+Unfortunately I realized too late that the css and images should have been in the assets folder.
 ## Validation
 
 The validation process revealed some interesting problems. It discovered many issues which I had overlooked. I had inserted duplicate id elements instead of using class elements. I had also created section tags without using headers which came up as a yellow warning message.
@@ -157,6 +158,8 @@ The style of the Customer quotes on the about_us.html page was based on the layo
 The Navigation Pane is based on the Resume Mini project and modified to suit
 
 Thanks to Alan Simpson at [text](https://www.youtube.com/watch?v=T8DrI6K8ArE) for his video on the open in other browsers video and TechER for their VS Code extension
+
+Special thanks also to my mentor Mo for his guidance and tips
 
 
 ## Footnote
