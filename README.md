@@ -119,10 +119,10 @@ The accessibility test I used was the WAVE Chrome extension [Wave Accessibility 
 
 
 ## Bugs
-
 I used Balsamiq to create my wireframes and found it very versatile. I wanted show the wireframes in the Readme file and I thought it would be a good idea to save the file as a pdf as it was offered as an export to PDF option and all the pages could be in a single file. However this did not work out. It didn't work for multiple pages and neither for a single page. For some reason the pdf file extension did not work with the Github url for the file. I had to save all the pages individually as jpegs and add each one separately to the Readme file
 
-A second problem I encountered was an unwanted element appearing on the home page and the service page. It was a tiny square element appearing to the side of the hero image on both pages. In Chrome Developer Tools the element was highlighted as li:: marker. I was unable to find a resolution for this issue. Perhaps it is a misplaced comma or something like that
+A second problem I encountered was an unwanted element appearing on the home page and the service page. It was a tiny square element appearing to the side of the hero image on both pages. In Chrome Developer Tools the element was highlighted as li:: marker. The solution was to add an inline style to the list item which I found at [codegrepper.com](https://www.codegrepper.com/search.php?q=remove%20list%20markers%20from%20a%20html%20list)
+Instead of just <li> add <li style="list-style-type: none;"> to fix.
 
 As I was testing the webpages in different browsers I noticed the Font Awesome icons on the contact us page had stopped displaying
 This happened just as I was finalising the project. I also noticed a red warning in Chrome Dev Tools
