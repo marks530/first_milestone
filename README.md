@@ -158,5 +158,5 @@ Special thanks also to my mentor Mo for his guidance and tips
 
 ## Footnote
 I been studying with the Code Institute for 3 months now and have thoroughly enjoyed the course. It has been a steep learning curve but a great experience. 
-I have used the Slack resource and the many other free resources available on the web today and one feature has shone through loud and clear. That is a wonderful sense of camaraderie and willingness to help out others that exists between the coding community
+I have used the Slack resource and the many other free resources available on the web today and one feature has shone through loud and clear. That is a wonderful sense of camaraderie and willingness to help out others that exists in the coding community.
 I hope that as I learn and develop as a coder that I can contribute to the community and be part of the great sharing amongst those involved. There is hope yet for the human race!
